@@ -29,11 +29,11 @@
 http://127.0.0.1:5000
 
 Данные:
-Основной источник датасета: https://www.kaggle.com/datasets/mylesoneill/warcraft-avatar-history?spm=a2ty_o01.29997173.0.0.6d355171LG4RNp
-Информация о персонажах: wowah_data.csv
-Справочник зон: zones.csv
+- Основной источник датасета: https://www.kaggle.com/datasets/mylesoneill/warcraft-avatar-history?spm=a2ty_o01.29997173.0.0.6d355171LG4RNp
+- Информация о персонажах: wowah_data.csv
+- Справочник зон: zones.csv
 
 Модель:
-Алгоритм: RandomForestClassifier
-Точность: 0.859825
-Признаки: раса, класс, тип зоны, контролирующая фракция, рекомендуемый уровень зоны, наличие гильдии
+- Алгоритм: RandomForestClassifier
+- Точность: 0.859825
+- Признаки: раса, класс, тип зоны, контролирующая фракция, рекомендуемый уровень зоны, наличие гильдии
