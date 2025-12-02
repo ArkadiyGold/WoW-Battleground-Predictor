@@ -1,4 +1,4 @@
-#⚔️ WoW Battleground Predictor
+⚔️ WoW Battleground Predictor
 Предсказание шанса победы персонажа в следующем поле боя на основе его фракции, класса, роли и активности в бонусных событиях.
 
 Проект использует реальные боевые логи PvP из World of Warcraft (The Burning Crusade).
