@@ -44,21 +44,21 @@ python app.py
 http://127.0.0.1:5000
 
 Данные:
-/nОсновной датасет: боевые логи полей боя (Battlegrounds)
-Файлы: wowbgs.csv, wowgil.csv, wowsm.csv, wowbgs2.csv и др.
-Источник: самостоятельно собранные/обработанные PvP-логи (аналог Kaggle Battlegrounds)
-Колонки: Faction, Class, Rol, KB, D, HK, DD, HD, Honor, Win, BE
+- Основной датасет: боевые логи полей боя (Battlegrounds)
+- Файлы: wowbgs.csv, wowgil.csv, wowsm.csv, wowbgs2.csv и др.
+- Источник: самостоятельно собранные/обработанные PvP-логи (аналог Kaggle Battlegrounds)
+- Колонки: Faction, Class, Rol, KB, D, HK, DD, HD, Honor, Win, BE
 Модель:
-Алгоритм: RandomForestClassifier (сравнивался с XGBoost, выбрана лучшая)
-Точность: 0.6395904436860068
+- Алгоритм: RandomForestClassifier (сравнивался с XGBoost, выбрана лучшая)
+- Точность: 0.6395904436860068
 Признаки:
-Faction (фракция)
-Class (класс)
-Rol (роль: DPS/Heal)
-BE (бонусный ивент)
-avg_efficiency (средняя эффективность по группе)
+- Faction (фракция)
+- Class (класс)
+- Rol (роль: DPS/Heal)
+- BE (бонусный ивент)
+- avg_efficiency (средняя эффективность по группе)
 Особенности:
-Динамические рекомендации на основе боёв:
+- Динамические рекомендации на основе боёв:
 «Шаманы Орды побеждают в 71% случаев»
 «Идеальный отряд — 2 хилера + 5 DPS»
 
