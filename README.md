@@ -17,18 +17,18 @@
 Историческую среднюю эффективность класса в выбранной фракции
 Структура проекта
 
-wow-battleground-predictor/
-├── data/                   # Данные боёв
-├── model/                 # Обученная модель и статистика
-│   ├── battlegrounds_model.pkl
-│   ├── model_features.pkl
-│   ├── win_rate_by_faction_role.pkl
-│   ├── heal_ratio_stats.pkl
-│   ├── efficiency_map.pkl
-│   └── class_efficiency.pkl
-├── templates/
-│   └── index.html          # Веб-интерфейс с рекомендациями
-└── wowbattleground.py                  # Flask API
+#wow-battleground-predictor/
+- ├── data/                   # Данные боёв
+- ├── model/                 # Обученная модель и статистика
+- │   ├── battlegrounds_model.pkl
+- │   ├── model_features.pkl
+- │   ├── win_rate_by_faction_role.pkl
+- │   ├── heal_ratio_stats.pkl
+- │   ├── efficiency_map.pkl
+- │   └── class_efficiency.pkl
+- ├── templates/
+- │   └── index.html          # Веб-интерфейс с рекомендациями
+- └── wowbattleground.py                  # Flask API
 
 Запуск
 ```
